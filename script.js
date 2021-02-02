@@ -13,83 +13,86 @@ c9=cell[8];
 c1.addEventListener("click",function(){
     var content=c1.textContent;
     if(content=="")
-    content="X";
+    c1.textContent="X";
     else if(content=="X")
-    content="O";
+    c1.textContent="O";
     else
-    content="";
-
-    c1.textContent=content;
-})
+    c1.textContent="";
+    // check();
+});
 
 c2.addEventListener("click", function () {
   var content = c2.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
-
-  c2.textContent = content;
+  if (content == "") c2.textContent = "X";
+  else if (content == "X") c2.textContent = "O";
+  else c2.textContent = "";
+  // check();
 });
 
 c3.addEventListener("click", function () {
   var content = c3.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
-
-  c3.textContent = content;
+  if (content == "") c3.textContent = "X";
+  else if (content == "X") c3.textContent = "O";
+  else c3.textContent = "";
+  // check();
 });
 
 c4.addEventListener("click", function () {
   var content = c4.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
+  if (content == "") c4.textContent = "X";
+  else if (content == "X") c4.textContent = "O";
+  else c4.textContent = "";
 
-  c4.textContent = content;
+  // check();
 });
 
 c5.addEventListener("click", function () {
   var content = c5.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
+  if (content == "") c5.textContent = "X";
+  else if (content == "X") c5.textContent = "O";
+  else c5.textContent = "";
 
-  c5.textContent = content;
+  // check();
 });
 
 c6.addEventListener("click", function () {
   var content = c6.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
+  if (content == "") c6.textContent= "X";
+  else if (content == "X") c6.textContent = "O";
+  else c6.textContent = "";
 
-  c6.textContent = content;
+  // check();
 });
 
 c7.addEventListener("click", function () {
   var content = c7.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
+  if (content == "") c7.textContent = "X";
+  else if (content == "X") c7.textContent = "O";
+  else c7.textContent = "";
 
-  c7.textContent = content;
+  // check();
 });
 
 c8.addEventListener("click", function () {
   var content = c8.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
-
-  c8.textContent = content;
+  if (content == "") c8.textContent = "X";
+  else if (content == "X") c8.textContent = "O";
+  else c8.textContent = "";
+  // check();
 });
 
 c9.addEventListener("click", function () {
   var content = c9.textContent;
-  if (content == "") content = "X";
-  else if (content == "X") content = "O";
-  else content = "";
-
-  c9.textContent = content;
+  if (content == "") c9.textContent = "X";
+  else if (content == "X") c9.textContent = "O";
+  else c9.textContent = "";
+  // check();
 });
+
+// function check()
+// {
+//   if((c1.textContent==c2.textContent&&c2.textContent==c3.textContent)||(c4.textContent==c5.textContent&&c5.textContent==c6.textContent)||(c7.textContent==c8.textContent&&c8.textContent==c9.textContent)||(c1.textContent==c5.textContent&&c5.textContent==c9.textContent)||(c3.textContent==c5.textContent&&c5.textContent==c7.textContent)||(c1.textContent==c4.textContent&&c4.textContent==c7.textContent)||(c2.textContent==c5.textContent&&c5.textContent==c8.textContent)||(c3.textContent==c6.textContent&&c6.textContent==c9.textContent)){
+//   alert(c1.textContent+" wins!")
+//   window.location.reload();
+// }
+// }
